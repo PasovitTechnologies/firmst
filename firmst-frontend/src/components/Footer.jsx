@@ -20,7 +20,7 @@ const Footer = () => {
               className="w-36 md:w-52 mb-2"
             />
             <div className="flex md:hidden gap-4 items-center my-5">
-              <span className="text-sm ">+7 999 999 000</span>
+              <span className="text-sm ">+7-931-111-44-55</span>
               <div className="flex gap-3   ">
                 <img
                   src="/images/telegram.png"
