@@ -1,0 +1,268 @@
+{
+    "home": "Home",
+    "services": "Services",
+    "reviews": "Reviews",
+    "about": "About",
+    "contact_number": "+123 456 7890",
+    "whatsapp": "WhatsApp",
+    "language": "Language",
+  
+    "heroSection": {
+      "hero_title": "We Offer The Best Medical Internship Programmes Abroad",
+      "hero_description": "Join the leading medical internship programmes designed to provide hands-on experience in top hospitals across the globe. Start your journey today with professional guidance every step of the way.",
+      "cta_button": "Complimentary Consultation"
+    },
+  
+    "success_stories": {
+      "heading": "Our Success Stories",
+      "story1": "15 years of experience in organising successful Medical programmes for Healthcare Professionals!",
+      "story2": "Exposure to numerous Medical cases & hands-on Opportunities! <br/> <br/> More than 100 Medical Interns have been sent abroad!",
+      "story3": "Get Trained By Renowned Medical Experts",
+      "story4": "Fast & Guaranteed Visa Application Services"
+    },
+  
+    "requestForm": {
+      "heading": "Submit the Request Form <br/> to Receive Complimentary Consultation Now!",
+      "description": "Submit the request form to receive complimentary consultation now",
+      "name": "Full Name *",
+      "contact": "Contact Number *",
+      "specialization": "Specialization of Interest *",
+      "email": "Email *",
+      "accept_terms": "I have read and agree to the website terms and conditions*",
+      "terms_conditions": "",
+      "submit": "Submit",
+      "success_message": "Form submitted successfully!",
+      "error_message": "Failed to submit the form. Please try again.",
+      "network_error_message": "Network error! Please check your connection.",
+      "content": "Your personal data is collected and processed in accordance with the Rules of the EU Parliament and Council of April 27, 2016 No. 2016/679, namely: “Regulations on the protection of individuals regarding the processing of their personal data and free movement of such data”, as well as on the basis of the repeal of Directive 95/46 / WE (general data protection rules), i.e. only on the basis of the consent of the owner of such data.",
+      "button": "SUBMIT"
+    },
+  
+    "feedback": {
+      "heading": "Feedback From Our Former Interns",
+      "subheading": "You’re Welcome To Network With Our Interns  <br className='hidden md:inline' /> To Learn Further About Us!"
+    },
+
+
+    "feedbacks": {
+      "button": "Read Feedback",
+      "content":[ 
+        {
+          "userImage":         "/feedbackImages/ekaterina/user.jpg",
+
+        "name": "Ekaterina Popova",
+        "designation": "MD, Neurologist",
+        "where": "Where?",
+        "location": "Amrita Institute of Medical Sciences (AIMS), Kochi, Kerala, India",
+        "fieldHead": "Rotation focus (field)",
+        "field":"Clinical Neurology, Neuroimmunology",
+        "durationHead": "When and for how long?",
+        "duration":"5 months + 1 month. September 1, 2021 – February 1, 2022. July 1 – August 1, 2023.",
+        "roleHead": "Who were you at the time of the rotation?",
+        "role":"Senior (6 year) medical student (Sechenov University, Moscow, Russia) and Neurology resident (Research Center for Neurology, Moscow, Russia), respectively",
+        "impactHead": "How did this experience impact your life (from 0 to 10)?",
+        "impact":"10",
+        "experienceHead": "What did you do during the rotation?",
+        "experience":"I was purposed to pursue the two goals: to get a clinical experience in Neurology and start a scientific work and publish under the leadership of experts from AIMS, and both of them have been reached. I was posted both in the outpatient (OP) and inpatient (IP) departments, talked to the English-speaking patients and their relatives, performed the neurological exam and wrote the notes under the supervision of the doctors from the center and could even sign them by my name, close to the name of the supervisor, participated in the bedside rounds and gran rounds, went to the Neuroimmunology lab to learn the technique of some tests, collected the data for the research from the database, brainstormed on the research topic, worked with statistics and convened a research from a scratch to a full-text paper in English under the supervision. I cannot thank enough my scientific supervisor, Dr. Kannoth, the dean of the Department of Medicine at that time, Dr. Marwaha, and all the AIMS team for what they have done for me.",
+        "findingHead": "How did you find this rotation?",
+        "finding": "I have been an EAFO volunteer for years after I participated and won at the EAFO Basic Oncology Courses back in 2019. I was aimed to apply for the Presidential grant to Study Abroad of the Russian Federation and searched for the places to go and Dr. Soma suggested AIMS. Luckily, they were ready to accept me for the externship in the midst of COVID..! As a FIRMST co-founder I was a part of the EAFO team and Dr. Soma and the other members of the team helped me tremendously. Without them, I wouldn’t have been able to do it.",
+        "projectsHead": "Were there any long-haul projects of any kind as a result of this internship?",
+        "projects": "Yes. We’ve published one paper with my first authorship in the peer-reviewed Q1 journal and presented two of our works at the American Academy of Neurology conferences in 2022 and 2024, another manuscript is currently awaiting publication. ",
+        "adviceHead": "Any advice what could be improved in the externship?",
+        "advice":"I think, overall everything was amazing, everyone was helpful and kind to me. The only thing what I think could have been improved (but mostly from my side) is to determine realistic and reachable goals and concentrate on one-two major purposes. During my rotation I had to prepare for the international exam in medicine and in language proficiency, and this slowed down my research activities and clinical learning. Also, I had some unexpected (though so fabulous and memorable!) trips across India with my old or new friends which also, for the sake of wiser time management, could be planned in advance.",
+        "difficultiesHead": "Which difficulties you had to overcome and where you wish you could have any help with?",
+        "difficulties":"One of the worst things I had is that the stipend funds for some technical reasons could not be released for me immediately and in this situation EAFO team helped me tremendously and I am very-very grateful for this. Then, when I first came to Kochi I was thinking I could find some options to living somewhere rather that in the hotel, which could be a little costly. Although I managed to find a friend of my friend’s friend (:D) there we couldn’t find anything fitting me, so I stayed at the hotel. I would have been happy if I had some good options in advance. And the last, I think, although all the doctors and many patients in that part of India speak English, in some situations I had some difficulties in communication and had to learn very-very basics of the native language. ",
+        "sponsorHead": "Who sponsored your trip?",
+        "sponsor": "The first rotation (5 months) was covered by the Presidential Stipend to Study Abroad of the Russian Federation. The second one (1 month) I covered out of my pocket.",
+      "images": [
+        "/feedbackImages/ekaterina/image1.jpg",
+        "/feedbackImages/ekaterina/image2.jpg",
+        "/feedbackImages/ekaterina/image3.jpg",  
+        "/feedbackImages/ekaterina/image4.jpg",
+        "/feedbackImages/ekaterina/image5.jpg",
+        "/feedbackImages/ekaterina/image6.jpg",
+        "/feedbackImages/ekaterina/image7.jpg",
+        "/feedbackImages/ekaterina/image8.jpg",
+        "/feedbackImages/ekaterina/image9.jpg",
+        "/feedbackImages/ekaterina/image10.jpg",
+        "/feedbackImages/ekaterina/image11.jpg",
+        "/feedbackImages/ekaterina/image12.jpg"
+
+      ]
+      },
+        {
+          "name": "PAVEL FROLOV",
+          "designation":"MD, Neurologist",
+          "description": ""
+        },
+        {
+          "name": "ANNA VORONINNA",
+          "designation":"MD, Neurologist",
+          "description": ""
+        }
+      ]
+    },
+  
+    "address":{
+      "title" : "Volokolomskoe Shosse,",
+      "descriptionOne":" 1c1 Office 606C,",
+      "descriptionTwo":"Moscow, Russia, 125080"
+    },
+    "process": {
+      "heading": "HOW DO WE WORK ?",
+      "subheading": "Easy To Join",
+      "steps": [
+        {
+          "title": "STEP 1",
+          "description": "Sign up for our complimentary consultation"
+        },
+        {
+          "title": "STEP 2",
+          "description": "Fill up our application form and let us know the hospital and specialization of your choice"
+        },
+        {
+          "title": "STEP 3",
+          "description": "Receive feedback from our internship specialist and proceed with payment"
+        },
+        {
+          "title": "STEP 4",
+          "description": "Our team will proceed with your documentation process"
+        },
+        {
+          "title": "STEP 5",
+          "description": "We will assist you to ensure successful completion of your desired fellowship programme!"
+        }
+      ]
+    },
+  
+    "programs": {
+      "heading": " List Of Hospitals Where <br /> Firmsts Fellowship Programmes Are Conducted.",
+      "locations": [
+        {
+          "title": "INDIA",
+          "points": [
+            "UCMS-DELHI",
+            "AMRITA HOSPITAL-KOCHI",
+            "AMRITA HOSPITAL-FARIDABAD",
+            "TATA MEDICAL CENTRE-CALCUTTA",
+            "CACHAR CANCER CENTRE-SILCHAR, ASSAM"
+          ],
+          "image": "https://static.wixstatic.com/media/df6cc5_03d2bb04cb16409e9817d754772ee1ef~mv2.png"
+        },
+        {
+          "title": "HUNGARY",
+          "points": [
+            "DUNA MEDICAL CENTRE-BUDAPEST",
+            "UNIVERSITY OF SZEGED-SZEGED"
+          ],
+          "image": "https://static.wixstatic.com/media/df6cc5_8bfe6899c84a441fa36a86d4bd3f37fb~mv2.png"
+        },
+        {
+          "title": "SWITZERLAND",
+          "points": ["GENOLIER CLINIC-GENOLIER"],
+          "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+        }
+      ]
+    },
+    "copyright": {
+      "title": "© 2025 FIRMST. All rights reserved."
+    },
+    "LoginPage": {
+      "title": "Admin Login",
+      "emailLabel": "Email Address:",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password:",
+      "passwordPlaceholder": "Enter your password",
+      "loginButton": "Login",
+      "loginSuccess": "Login successful! Redirecting...",
+      "loginError": "Invalid login credentials!",
+      "loginFailed": "An error occurred. Please try again."
+    },
+  
+    "userDetails": {
+      "header": "User Details",
+      "userInformation": "User Information",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "specialization": "Specialization",
+      "status": "Status",
+      "completed": "Completed",
+      "pending": "Pending",
+      "uncontacted": "Uncontacted",
+      "notes": "Notes",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "deleteUser": "Delete User",
+      "loading": "Loading user details...",
+      "successMessage": "Changes saved successfully!",
+      "errorMessage": "Failed to save changes.",
+      "deleteSuccess": "User deleted successfully!",
+      "deleteFail": "Failed to delete user."
+    },
+    "homepage": {
+      "title": "We offer the Best Medical Internship programmes abroad",
+      "description": "We help make your dream come true: we select study programs, scholarships and grants, and provide support at all stages of admission to the best universities in the world.",
+      "button": "Complimentary Consultation"
+    },
+    "successStory": {
+      "title": "Our Success Stories",
+      "sectionOne": {
+        "title": "15+ Years",
+        "description": "Of Experience Organising Successful Medical Programmes"
+      },
+      "sectionTwo": {
+        "title": "100+",
+        "description": "Medical interns have been sent abroad and trained by renowned medical experts"
+      },
+      "sectionThree": {
+        "title": "100%",
+        "description": "Fast and guaranteed visa application services"
+      }
+    },
+    "navbar": {
+      "home": "Home",
+      "services": "Services",
+      "reviews": "Reviews",
+      "about": "About"
+    },
+
+    "studyAbroad": {
+      "paragraph1": "FIRMST Study Abroad is a platform for tailoring personalized plan for international clinical or scientific rotations in many fields of Medicine and Allied Sciences. We are aimed to facilitate a better experience of away externships by working with reliable partner institutions, orchestrating official paperwork and helping deal with organizational issues before and during the rotation. We have already had much positive feedback from students and doctors who had such experience and eventually come to the decision to launch a full-fledged international exchange program. You can be the next candidate!",
+      "heading": "History behind and our Philosophy",
+      "paragraph2": "Some of you may have heard about or even participated in the FIRMST Forum – the Forum for Interdisciplinary Research in Medical Science and Technology which was first launched back in 2020. It was a separate project organized by the students under the umbrella of the Eurasian Federation of Oncology (EAFO) and lead by the EAFO Founder & CEO, Surgical Oncologist and Philanthropist Dr. Somasundaram SUBRAMANIAN (Dr. Soma). The scope of the FIRMST activities has been vast and included most medical specialties and allied sciences.",
+      "paragraph3": "As the time passed by, many members of our team graduated from the universities or achieved the other professional milestones and studied abroad, inspired by the history of the previous EAFO scholarships holders or doctors receiving any other help on the behalf of EAFO, either connections abroad or personal advice from the experienced EAFO or FIRMST experts. The preparation process for any rotation abroad from zero is very tedious and time-consuming, we went through all of this ourselves. Now, the time has come to share this experience with you, to shape it for your endeavors and benefit your career towards a better future in the interest of your patients and advancement of science and technology."
+    },
+    "dashboard": {
+      "title": "User Dashboard",
+      "searchPlaceholder": "🔍 Search by name, email, or phone",
+      "allStatus": "All Status",
+      "completed": "Completed",
+      "pending": "Pending",
+      "uncontacted": "Uncontacted",
+      "status": "Status",
+      "noUsers": "No users found or failed to load users."
+    },
+    "team" :{
+      "title": "OUR TEAM",
+      "members": [
+        {
+          "name": "MURALI MUTHU",
+          "description": "Department Of Pathoanatomy <br/> Amrita Hospital <br/> Kochi, India"
+        },
+        {
+          "name": "PAVEL FROLOV",
+          "description": ""
+        },
+        {
+          "name": "ANNA VORONINNA",
+          "description": ""
+        }
+      ]
+    },
+    "footer": {
+      "title": "CONTACT US"
+    }
+  }
+  

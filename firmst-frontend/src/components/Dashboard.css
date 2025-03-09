@@ -1,0 +1,149 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    padding-top: 90px;
+  }
+  .dashboard-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #00295f;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-filter-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+  }
+ 
+  .search-input,
+  .status-select {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .status-select {
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .user-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    height: calc(100vh - 200px);
+    border-radius: 12px; /* Curved corners for the user list */
+    padding: 10px; /* Space for scrollbar */
+  }
+  
+  /* Custom scrollbar styles */
+  .user-list::-webkit-scrollbar {
+    width: 8px; /* Small width for the scrollbar */
+  }
+  
+  .user-list::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Light color for the scrollbar thumb */
+    border-radius: 12px; /* Curved corners for the thumb */
+  }
+  
+  .user-list::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Light background for the track */
+    border-radius: 12px; /* Curved corners for the track */
+  }
+  
+  /* Hover effect on scrollbar thumb */
+  .user-list::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Darker color when hovering */
+  }
+  
+  
+  .user-card {
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+    border-left: 8px solid transparent; /* Default transparent border */
+  }
+  
+  .user-card.completed {
+    border-left: 8px solid #28a745; /* Green for Completed */
+  }
+  
+  .user-card.pending {
+    border-left: 8px solid #ffcc00; /* Orange for Pending */
+  }
+  
+  .user-card.uncontacted {
+    border-left: 8px solid #dc3545; /* Red for Uncontacted */
+  }
+  
+  .user-card:hover {
+    background-color: #d45e33;
+    color: white;
+  }
+  
+  
+  .user-card:hover {
+    background-color: #f2f2f2;
+    color: #000;
+  }
+  .user-card h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  }
+  
+  .user-card  p span{
+    font-weight: bold;
+  }
+  .user-card p{
+    margin-bottom: 3px;
+  }
+  .no-users {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .search-filter-wrapper {
+      flex-direction: column;
+      gap: 12px;
+    }
+    .dashboard-header{
+    flex-direction: column;
+    width: 100%;
+    }
+  }
+  
