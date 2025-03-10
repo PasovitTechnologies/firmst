@@ -1,35 +1,55 @@
 import { useTranslation } from "react-i18next";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import "../utils/i18n";
+import { FaGlobe } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [selectedLang, setSelectedLang] = useState(i18n.language);
+  const dropdownRef = useRef(null);
+
+  const languages = [
+    { code: "en", name: "English", flag: "/flags/us_flag.png" },
+    { code: "ru", name: "Русский", flag: "/flags/russia_flag.png" },
+  ];
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
+    setSelectedLang(lang);
+    setDropdownOpen(false);
   };
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-
       const isVisible =
         prevScrollPos > currentScrollPos || currentScrollPos < 10;
-
       setPrevScrollPos(currentScrollPos);
       setVisible(isVisible);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(false);
+      }
+    };
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("click", handleClickOutside);
+    };
   }, [prevScrollPos]);
 
   return (
     <nav
-      className={`bg-white shadow-md h-20 flex items-center  px-4 md:px-6 fixed w-full top-0 left-0 z-50 transition-transform duration-300 ${
+      className={`bg-white shadow-md h-20 flex items-center px-4 md:px-6 fixed w-full top-0 left-0 z-50 transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
@@ -37,28 +57,28 @@ const Navbar = () => {
         <div>
           <img
             src="/images/FIRMST_SA_Hor_Logo.png"
-            alt=""
-            className="w-28 md:w-36"
+            alt="Logo"
+            className="w-24 md:w-36"
           />
         </div>
         <div className="flex flex-row-reverse md:flex-row gap-5 md:gap-3 items-center">
           <div className="flex flex-col-reverse md:flex-row gap-1 items-center md:gap-3">
-            <span className="md:mr-3 md:text-lg text-purple-950">
+            <span className="md:mr-3 text-[0.65rem] md:text-lg text-purple-950">
               +7-931-111-44-55
             </span>
             <div className="flex gap-2 md:gap-3">
               <a href="https://telegram.org/" target="_blank">
                 <img
                   src="/images/telegram.png"
-                  alt=""
-                  className="w-7 h-7 rounded-lg "
+                  alt="Telegram"
+                  className="w-5 md:w-7 h-5 md:h-7 rounded-lg"
                 />
               </a>
               <a href="https://web.whatsapp.com/" target="_blank">
                 <img
                   src="/images/whatsapp.png"
-                  alt=""
-                  className="w-7 h-7 rounded-lg "
+                  alt="WhatsApp"
+                  className="w-5 md:w-7 h-5 md:h-7 rounded-lg"
                 />
               </a>
               <a
@@ -67,24 +87,54 @@ const Navbar = () => {
               >
                 <img
                   src="/images/instagram.png"
-                  alt=""
-                  className="w-7 h-7 rounded-lg"
+                  alt="Instagram"
+                  className="w-5 md:w-7 h-5 md:h-7 rounded-lg"
                 />
               </a>
             </div>
           </div>
-          <div className="md:ml-4">
-            <select
-              className="cursor-pointer border text-lg px-2 py-1 rounded-lg"
-              onChange={(e) => changeLanguage(e.target.value)}
-            >
-              <option className="text-sm md:text-base" value="en">
-                English
-              </option>
-              <option className="text-sm md:text-base" value="ru">
-                Русский
-              </option>
-            </select>
+
+          {/* Custom Dropdown for Language Selection */}
+          <div
+            className="relative md:ml-3 flex gap-1 md:gap-2 items-center"
+            ref={dropdownRef}
+          >
+            <FaGlobe className="text-xl md:text-2xl text-gray-800" />
+            <div className="relative">
+              <button
+                className="cursor-pointer border border-gray-400 md:text-base px-2 py-1 rounded-lg text-xs flex items-center gap-2"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+              >
+                <img
+                  src={
+                    languages.find((lang) => lang.code === selectedLang)?.flag
+                  }
+                  alt="Flag"
+                  className="w-3 md:w-4 h-3 md:h-4"
+                />
+                {languages.find((lang) => lang.code === selectedLang)?.name}
+                <IoIosArrowDown className="text-gray-600 text-sm ml-1" />
+              </button>
+
+              {dropdownOpen && (
+                <ul className="absolute md:top-9 w-full bg-white border border-gray-400 rounded-lg shadow-md mt-1 right-0 z-10 overflow-hidden">
+                  {languages.map((lang) => (
+                    <li
+                      key={lang.code}
+                      className="flex items-center gap-2 px-2 md:px-3 py-1 hover:bg-gray-200 cursor-pointer text-xs md:text-base"
+                      onClick={() => changeLanguage(lang.code)}
+                    >
+                      <img
+                        src={lang.flag}
+                        className="w-3 md:w-4 h-3 md:h-4"
+                        alt={`${lang.name} Flag`}
+                      />
+                      {lang.name}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </div>
         </div>
       </div>
