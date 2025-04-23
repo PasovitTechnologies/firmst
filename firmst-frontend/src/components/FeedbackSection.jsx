@@ -24,6 +24,7 @@ const FeedbackSection = () => {
               <img
                 src={feedback.userImage}
                 className="w-48 h-48 rounded-full  object-cover bg-gray-300 "
+                alt="study abroad"
               />
               <div>
                 <h3 className="font-bold  text-[#cf6239] ">
