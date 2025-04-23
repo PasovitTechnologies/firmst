@@ -1,21 +1,39 @@
+require("dotenv").config(); // <-- Load .env first
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const formRoutes = require("./routes/formRoutes"); // Import the routes
+const mongoose = require("mongoose");
+const formRoutes = require("./routes/formRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
-// Middlewares
-app.use(bodyParser.json()); // To parse JSON data
-app.use(cors()); // Enable Cross-Origin Resource Sharing (CORS) if you are accessing from frontend running on a different port
+// MongoDB connection using MONGO_URI from .env
+const mongoURI = process.env.MONGO_URI;
 
-// Use the routes defined in formRoutes.js
-app.use("/api/firmst-form", formRoutes); // Prefix the route with "/api" (e.g., POST /api/submit-form)
-app.use("/api/admin", adminRoutes); // Prefix the route with "/api/admin" (e.g., POST /api/admin/login)
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
-// Start the server
+const db = mongoose.connection;
+
+db.on("error", console.error.bind(console, "MongoDB connection error:"));
+db.once("open", () => {
+  console.log("✅ Connected to MongoDB Atlas");
+});
+
+// Middleware
+app.use(bodyParser.json());
+app.use(cors());
+
+// Routes
+app.use("/api/firmst-form", formRoutes);
+app.use("/api/admin", adminRoutes);
+
+// Start server
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`🚀 Server running on http://localhost:${port}`);
 });

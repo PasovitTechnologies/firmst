@@ -22,6 +22,8 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    console.log("Base URL:", baseURL);
+  
     try {
       const response = await fetch(`${baseURL}/api/admin/login`, {
         method: "POST",
@@ -30,9 +32,11 @@ const Login = () => {
         },
         body: JSON.stringify({ email, password }),
       });
-
-      const data = await response.json();
-
+  
+      const contentType = response.headers.get("content-type");
+      const hasJSON = contentType && contentType.includes("application/json");
+      const data = hasJSON ? await response.json() : {};
+  
       if (response.ok) {
         localStorage.setItem("token", data.token);
         toast.success(t("LoginPage.loginSuccess"), { autoClose: 2000 });
@@ -41,13 +45,14 @@ const Login = () => {
           window.location.reload();
         }, 2000);
       } else {
-        toast.error(t("LoginPage.loginError"));
+        toast.error(data.message || t("LoginPage.loginError"));
       }
     } catch (err) {
       console.error("Error during login:", err);
       toast.error(t("LoginPage.loginFailed"));
     }
   };
+  
 
   return (
     <div className="login-container">
