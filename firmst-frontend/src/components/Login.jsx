@@ -5,10 +5,14 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Login.css";
 
+// Import eye icons
+import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import eye icons for password visibility toggle
+
 const Login = () => {
   const { t } = useTranslation(); // i18n hook
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false); // State for password visibility
   const navigate = useNavigate();
   const baseURL = import.meta.env.VITE_BASE_URL;
 
@@ -52,7 +56,11 @@ const Login = () => {
       toast.error(t("LoginPage.loginFailed"));
     }
   };
-  
+
+  // Toggle show/hide password
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
 
   return (
     <div className="login-container">
@@ -76,15 +84,21 @@ const Login = () => {
 
         <div className="form-group">
           <label htmlFor="password">{t("LoginPage.passwordLabel")}</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder={t("LoginPage.passwordPlaceholder")}
-            required
-          />
+          <div className="password-input-container">
+            <input
+              type={showPassword ? "text" : "password"} // Toggle input type based on showPassword state
+              id="password"
+              name="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder={t("LoginPage.passwordPlaceholder")}
+              required
+            />
+            {/* Eye icon to toggle password visibility */}
+            <span className="password-toggle" onClick={togglePasswordVisibility}>
+              {showPassword ? <FaEyeSlash /> : <FaEye />}
+            </span>
+          </div>
         </div>
 
         <button type="submit" className="submit-button">

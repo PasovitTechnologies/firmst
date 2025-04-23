@@ -67,4 +67,20 @@
   .submit-button:hover {
     background-color: #b94e2a;
   }
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-input-container input {
+    width: 100%;
+    padding-right: 30px; /* Add space for the eye icon */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
   
