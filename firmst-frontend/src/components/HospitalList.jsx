@@ -14,7 +14,7 @@ const HospitalsList = () => {
         <div className="md:w-1/2 h-72 md:h-full md:absolute inset-0">
           <img
             src="/images/image2.jpg"
-            alt="Two female medical professionals reviewing information on a tablet"
+            alt="study abroad"
             className="w-full md:h-full object-cover md:opacity-50"
           />
           <div className=" mx-4 md:m-0 absolute rounded-2xl inset-0 bg-[#cf6239] opacity-50"></div>

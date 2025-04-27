@@ -30,7 +30,7 @@ const HeroSection = ({ contactFormRef }) => {
         >
           <img
             src="/images/heroImage.jpg"
-            alt="Doctor"
+            alt="study abroad"
             className="h-96 md:h-fit w-full object-cover object-left md:object-contain relative z-10"
           />
           <div

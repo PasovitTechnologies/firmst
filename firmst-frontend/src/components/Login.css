@@ -34,6 +34,15 @@
     margin-bottom: 5px;
     color: #00295f;
   }
+
+  .form-group input {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+}
  
   
   .error-message {
@@ -57,5 +66,21 @@
   
   .submit-button:hover {
     background-color: #b94e2a;
+  }
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-input-container input {
+    width: 100%;
+    padding-right: 30px; /* Add space for the eye icon */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
   }
   

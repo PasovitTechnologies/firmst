@@ -1,21 +1,27 @@
 [
   {
-    "name": "Gaurav Pandey",
-    "phone": "08448076770",
-    "specialization": "frontend",
-    "email": "gauravpndy000@gmail.com",
+    "firstName": "Sasikumar",
+    "middleName": "",
+    "lastName": "N",
+    "fullName": "Sasikumar N",
+    "phone": "06382522736",
+    "specialization": "Information Technology",
+    "email": "sethuinstituteoftechnology2022@gmail.com",
     "acceptTerms": true,
-    "submittedAt": "2025-03-19T09:22:34.220Z",
-    "status": "Uncontacted",
+    "submittedAt": "2025-04-23T03:20:51.252Z",
+    "status": "Pending",
     "notes": ""
   },
   {
-    "name": "Gaurav Pandey",
-    "phone": "08448076770",
-    "specialization": "frontend",
-    "email": "gauravpandey2310@gmail.com",
+    "firstName": "Sasikumar",
+    "middleName": "",
+    "lastName": "N",
+    "fullName": "Sasikumar N",
+    "phone": "916382522736",
+    "specialization": "IT",
+    "email": "eafofb@gmail.com",
     "acceptTerms": true,
-    "submittedAt": "2025-03-19T09:27:08.633Z",
+    "submittedAt": "2025-04-23T03:36:08.838Z",
     "status": "Uncontacted",
     "notes": ""
   }

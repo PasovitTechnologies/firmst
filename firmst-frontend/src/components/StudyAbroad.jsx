@@ -10,7 +10,7 @@ const StudyAbroad = () => {
           <img
             src="/images/FIRMST_SA_Hor_Logo.png"
             className="w-32 mb-4"
-            alt=""
+            alt="study abroad"
           />
           <div className=" flex flex-col gap-4 text-[0.86rem] leading-[1.01rem] tracking-[0.005em] text-[#4464a4]">
             <p>{t("studyAbroad.paragraph1")}</p>
@@ -30,7 +30,7 @@ const StudyAbroad = () => {
         <div className="md:w-1/2 relative">
           <img
             src="/images/study-abroad-img.jpg"
-            alt=""
+            alt="study abroad in russia"
             className="h-full object-cover"
           />
           <div className="h-full w-full absolute top-0  bg-gradient-to-t  md:bg-gradient-to-l from-transparent via-80% via-transparent to-100% to-[#f3f6fb]"></div>
