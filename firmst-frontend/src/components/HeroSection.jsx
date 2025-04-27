@@ -18,7 +18,7 @@ const HeroSection = ({ contactFormRef }) => {
 
           <button
             onClick={scrollToForm}
-            className="mt-4 md:mt-6 bg-[#002379] hover:bg-[#001379] cursor-pointer px-4 py-2 rounded text-base md:text-lg text-white shadow-black/60 shadow-md md:shadow-2xl"
+            className="mt-4 md:mt-6 bg-[#002379] hover:bg-[#001379] cursor-pointer px-2 md:px-4 py-2 rounded text-base md:text-lg text-white shadow-black/60 shadow-md md:shadow-2xl"
           >
             {t("homepage.button")}
           </button>
@@ -29,8 +29,8 @@ const HeroSection = ({ contactFormRef }) => {
          md:w-[60%] flex  md:justify-center     relative"
         >
           <img
-            src="/images/heroImage.jpg"
-            alt="study abroad"
+            src="/images/heroImage2.jpg"
+            alt="Doctor"
             className="h-96 md:h-fit w-full object-cover object-left md:object-contain relative z-10"
           />
           <div

@@ -62,7 +62,7 @@ const Navbar = () => {
           />
         </div>
         <div className="flex flex-row-reverse md:flex-row gap-5 md:gap-3 items-center">
-          <div className="flex flex-col-reverse md:flex-row gap-1 items-center md:gap-3">
+          <div className="flex flex-col-reverse md:flex-row gap-1 items-center md:gap-6">
             <span className="md:mr-3 text-[0.65rem] md:text-lg text-purple-950">
               +7-931-111-44-55
             </span>
@@ -94,15 +94,14 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Custom Dropdown for Language Selection */}
           <div
-            className="relative md:ml-3 flex gap-1 md:gap-2 items-center"
+            className="relative md:ml-6 flex gap-1 md:gap-2 items-center"
             ref={dropdownRef}
           >
             <FaGlobe className="text-xl md:text-2xl text-gray-800" />
             <div className="relative">
               <button
-                className="cursor-pointer border border-gray-400 md:text-base px-2 py-1 rounded-lg text-xs flex items-center gap-2"
+                className="cursor-pointer border border-transparent text-white font-semibold bg-[#002379] hover:bg-[#001379] md:text-base px-2 py-1 rounded-lg text-xs flex items-center gap-2"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
                 <img
@@ -113,11 +112,11 @@ const Navbar = () => {
                   className="w-3 md:w-4 h-3 md:h-4"
                 />
                 {languages.find((lang) => lang.code === selectedLang)?.name}
-                <IoIosArrowDown className="text-gray-600 text-sm ml-1" />
+                <IoIosArrowDown className="text-white text-sm " />
               </button>
 
               {dropdownOpen && (
-                <ul className="absolute md:top-9 w-full bg-white border border-gray-400 rounded-lg shadow-md mt-1 right-0 z-10 overflow-hidden">
+                <ul className="absolute md:top-9 w-full bg-white border border-[#002379] rounded-lg shadow-md mt-1 right-0 z-10 overflow-hidden">
                   {languages.map((lang) => (
                     <li
                       key={lang.code}
