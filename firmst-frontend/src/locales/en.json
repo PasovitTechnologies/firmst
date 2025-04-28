@@ -263,5 +263,251 @@
   },
   "footer": {
     "title": "CONTACT US"
-  }
+  },
+
+  "pricing": {
+    
+    "pricingOptions": {
+      "subtitle": "Participation options include four categories with different conditions and benefits.",
+      "cards": [
+        {
+          "badge": "Competitive selection",
+          "title": "Competitive Participation (Onsite)",
+          "price": "19,500 ₽",
+          "details": ["Full course access", "Shared room accommodation", "Meals included", "Visa support"],
+          "button": "Apply now"
+        },
+        {
+          "title": "Discounted Non-Competitive Participation (Onsite)",
+          "price": "35,000 ₽",
+          "details": ["Full course access", "Lunches and coffee breaks", "Course materials", "Certificate"],
+          "button": "Register"
+        },
+        {
+          "title": "Sponsored Non-Competitive Participation (Onsite)",
+          "price": "45,000 ₽",
+          "details": ["All discounted options", "5 nights accommodation", "Full meals", "VIP networking"],
+          "button": "Register"
+        },
+        {
+          "badge": "Online option",
+          "title": "Non-Competitive Module Participation",
+          "price": "15,000 ₽",
+          "details": ["Select thematic modules", "Online access", "Digital materials", "Electronic certificate"],
+          "button": "Choose modules"
+        }
+      ]
+    },
+    "faq": [
+      { "question": "Is there a payment plan available?" },
+      { "question": "Are there any scholarships available?" },
+      { "question": "What's included in the course materials?" }
+    ],
+    "cta": {
+      "title": "Ready to start your oncology journey?",
+      "subtitle": "Join our comprehensive medical education program and advance your career in oncology.",
+      "apply": "Apply Now",
+      "contact": "Contact Us"
+    }
+    },
+  
+  
+    "pricingHero": {
+      "title": "Course Pricing & Participation",
+      "subtitle": "Choose the participation format that best suits your needs and career goals."
+    },
+    "pricingOptions": {
+      "cards": [
+        {
+          "badge": "Competitive selection",
+          "title": "Competitive Participation<br>Starting from",
+          "subtitles": ["Best for beginners", "Includes basic features"],
+          "price": "19,500 ₽",
+          "details": [
+            "Full course access",
+            "Shared room accommodation",
+            "Meals included",
+            "Visa support"
+          ],
+          "button": "Apply now"
+        },
+        {
+          "title": "Discounted Non-Competitive Participation<br>Starting from",
+          "price": "35,000 ₽",
+          "details": [
+            "Full course access",
+            "Lunches and coffee breaks",
+            "Course materials",
+            "Certificate"
+          ],
+          "button": "Register"
+        },
+        {
+          "title": "Sponsored Non-Competitive Participation<br>Starting from",
+          "price": "45,000 ₽",
+          "details": [
+            "All discounted options",
+            "5 nights accommodation",
+            "Full meals",
+            "VIP networking"
+          ],
+          "button": "Register"
+        },
+        {
+          "badge": "Online option",
+          "title": "Non-Competitive Module Participation<br>Starting from",
+          "price": "15,000 ₽",
+          "details": [
+            "Select thematic modules",
+            "Online access",
+            "Digital materials",
+            "Electronic certificate"
+          ],
+          "button": "Choose modules"
+        }
+      ]
+    },
+  
+    "participation": {
+      "title": "Participation Requirements",
+      "subtitle": "To participate in the competition, you must:",
+      "requirements": [
+        "Pass entrance testing on the website",
+        "Send your resume",
+        "Write a motivation letter",
+        "Indicate average GPA",
+        "Attach documents confirming foreign language knowledge"
+      ],
+      "stages": [
+        { "number": "1", "title": "First Stage", "deadline": "until May 30", "seats": "10 competitive seats" },
+        { "number": "2", "title": "Second Stage", "deadline": "until June 30", "seats": "7 competitive seats" },
+        { "number": "3", "title": "Third Stage", "deadline": "from July 1", "seats": "7 competitive seats" }
+      ]
+    },
+  
+    "requiredDocuments": {
+      "title": "Required Documents",
+      "importantDeadlines": "Important Deadlines",
+      "deadlines": [
+        "First stage: until May 30, 2025 (23:59 Moscow time)",
+        "Second stage: until June 30, 2025 (23:59 Moscow time)",
+        "Third stage: until July 22, 2025 (23:59 Moscow time)"
+      ],
+      "warnings": [
+        "EAFO reserves the right to stop accepting applications in any category without prior notice",
+        "Online participants will only have access to theoretical parts of the course",
+        "Organizing committee may adjust prices based on updated accommodation costs"
+      ],
+      "enrollmentTitle": "For enrollment into the course",
+      "enrollment": [
+        "Passport copy via registration form",
+        "Student ID copy or official certificate",
+        "Signed Course Attendance Rules and Obligations Agreement",
+        "Payment from participant or participant's organization"
+      ],
+      "certificateTitle": "For obtaining the certificate",
+      "certificate": [
+        "Passport copy (photo and residence page)",
+        "SNILS copy",
+        "Education Diploma copy"
+      ]
+    },
+  
+    "included": {
+      "title": "What is included in the registration",
+      "features": [
+        {
+          "icon": "fa-chalkboard-user",
+          "title": "Course Access",
+          "description": "Access to all theoretical and practical classes with translation"
+        },
+        {
+          "icon": "fa-book",
+          "title": "Materials",
+          "description": "Educational materials, badge, program and printed materials"
+        },
+        {
+          "icon": "fa-certificate",
+          "title": "Certification",
+          "description": "Certificates of course completion and CME credits"
+        },
+        {
+          "icon": "fa-passport",
+          "title": "Visa Support",
+          "description": "Visa invitation according to Russian Federation regulations"
+        },
+        {
+          "icon": "fa-utensils",
+          "title": "Meals",
+          "description": "Coffee breaks, lunches and dinners"
+        }
+      ]
+    },
+  
+    "paymentInfo": {
+      "title": "Participation Information",
+      "participations": [
+        {
+          "title": "Competitive Participation",
+          "description": "Based on competition ranking results. Enrollment happens in three stages with different seat counts:",
+          "points": [
+            "First stage (until May 30) - 10 seats",
+            "Second stage (until June 30) - 7 seats",
+            "Third stage (from July 1) - 7 seats"
+          ]
+        },
+        {
+          "title": "Non-Competitive Discounted Participation",
+          "description": "Available for participants who did not pass the competitive selection. 30 seats available, no stage restrictions:",
+          "points": [
+            "First stage - until May 30",
+            "Second stage - until June 30",
+            "Third stage - from July 1"
+          ]
+        },
+        {
+          "title": "Industry Sponsored Participation",
+          "description": "For industry-sponsored participants and representatives of pharmaceutical/medical companies. 15 seats available:",
+          "points": [
+            "First stage - until May 30",
+            "Second stage - until June 30",
+            "Third stage - from July 1"
+          ]
+        }
+      ]
+    },
+  
+    "travelReimbursement": {
+      "title": "Travel Expense Reimbursement",
+      "description": "Participants with accepted Abstracts, Pathology Cases or Research Proposals may receive:",
+      "points": [
+        "20–75% of ticket price reimbursement (max ₹20,000)",
+        "Deadline: September 30, 2024 (23:59 Moscow time)",
+        "Submit ticket copy to travel@eafo.info"
+      ]
+    },
+  
+    "importantNotes": {
+      "title": "Important Information",
+      "accommodationTitle": "Accommodation and Meals",
+      "accommodation": [
+        "Three meals a day and coffee breaks included for those staying at the hotel during study days",
+        "Only breakfasts on weekends for hotel residents",
+        "Accommodation options available in Magas for additional payment"
+      ],
+      "warningsTitle": "Cancellation Policy",
+  "warnings": [
+        "If you cancel before May 20, you will receive a 90% refund.",
+        "If you cancel before June 20, you will receive a 50% refund.",
+        "If you cancel after July 20, no refund will be provided."
+      ]
+    },
+  
+    "cta": {
+      "title": "Join Us Now",
+      "subtitle": "Don't miss out on this incredible opportunity to advance your career.",
+      "apply": "Apply Now",
+      "contact": "Contact Us"
+    }
+  
 }
