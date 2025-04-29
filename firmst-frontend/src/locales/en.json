@@ -24,7 +24,9 @@
   "requestForm": {
     "heading": "Submit the Request Form <br/> to Receive Complimentary Consultation Now!",
     "description": "Submit the request form to receive complimentary consultation now",
-    "name": "Full Name *",
+    "firstName": "First Name *",
+    "lastName": "Last Name *",
+    "middleName": "Middle Name",
     "contact": "Contact Number *",
     "specialization": "Specialization of Interest *",
     "email": "Email *",
@@ -264,4 +266,6 @@
   "footer": {
     "title": "CONTACT US"
   }
+
+  
 }
