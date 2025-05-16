@@ -50,7 +50,7 @@
     "button": "Read Feedback",
     "content":[ 
       {
-        "userImage":         "/feedbackImages/ekaterina/user.jpg",
+        "userImage":"/feedbackImages/ekaterina/user.jpg",
 
       "name": "Ekaterina Popova",
       "designation": "MD, Neurologist",
@@ -92,16 +92,149 @@
 
     ]
     },
-      {
-        "name": "PAVEL FROLOV",
-        "designation":"MD, Neurologist",
-        "description": ""
-      },
-      {
-        "name": "ANNA VORONINNA",
-        "designation":"MD, Neurologist",
-        "description": ""
-      }
+    {
+      "userImage":"/feedbackImages/Yana_Kokanovskaya/Yana Kokanovskaya.jpg",
+
+    "name": "Yana Kokanovskaya",
+    "designation": "MD, Neurologist",
+    "where": "Where?",
+    "location": "Genolier Hospital – Genolier Hospital, Genolier, Switzerland",
+    "fieldHead": "Rotation focus (field)",
+    "field":"Clinical oncology, chemotherapy",
+    "durationHead": "When and for how long?",
+    "duration":"8 weeks: October-November 2024",
+    "roleHead": "Who were you at the time of the rotation?",
+    "role":"Clinical resident for 2 years, Department of Oncology, Radiotherapy and Reconstructive Surgery, I.M. Sechenov First Moscow State Medical University",
+    "impactHead": "How did this experience impact your life (from 0 to 10)?",
+    "impact":"10",
+    "experienceHead": "What did you do during the rotation?",
+    "experience":"During my stay in Switzerland, I had rotations in the departments of anti-tumour drug therapy, radiation therapy, radiation diagnostics, surgery, intensive care unit, outpatient oncology department. My programme was very intensive and included seeing patients together with my supervisors, attending consultations as part of outpatient appointments. My colleagues were very helpful in sharing their knowledge and answering all my questions, moreover, they facilitated my preferential participation in the Swiss Congress of Oncology and Haematology by arranging a grant to attend the event with the organising committee.",
+    "findingHead": "How did you find this rotation?",
+    "finding": "When I was a student, I was actively trying to find a contact for malignant neoplasm treatment experience in another country. Parallel to this, I was working as a volunteer and event coordinator for the Eurasian Federation of Oncology. I have more than 4 years of experience in EAFO, working in clinical research during my 6th year at Sechenov University, scientific publications, presentations at foreign conferences furthermore a letter of recommendation from Dr Soma - helped me to get an invitation to a fellowship under the supervision of renowned oncologists - Dr Matti Aapro and Dr Michael Montemurro.",
+    "projectsHead": "Were there (or are there any long-term projects planned) as a result of your internship?",
+    "projects": "Yes, I am currently working on a publication with colleagues in Switzerland.",
+    "adviceHead": "What do you think could have been improved in the internship?",
+    "advice":"I think that a longer internship period would have been definitely beneficial for me.",
+    "difficultiesHead": "What difficulties did you encounter and where do you think you needed more help?",
+    "difficulties":"I had the most difficulties with visa application, but my colleagues from Genolier were always ready to send all the necessary documents and to send a letter of invitation to the Swiss Embassy under my name.",
+    "sponsorHead": "Who sponsored your trip?",
+    "sponsor": "My trip was financed by the money I have earned over the past 4 years.",
+  "images": [
+    "/feedbackImages/Yana_Kokanovskaya/image1.jpg",
+    "/feedbackImages/Yana_Kokanovskaya/image2.jpg"
+
+  ]
+  },
+  {
+    "userImage":"/feedbackImages/Yulia_Protopopova/Yulia Protopopova.jpg",
+
+  "name": "Yulia Protopopova",
+  "designation": "MD, Neurologist",
+  "where": "Where?",
+  "location": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Mumbai, India ,University College of Medical Sciences (UCMS), New Deli, India , Tata Medical Center, Kolkata, India",
+  "fieldHead": "Rotation focus (field)",
+  "field":"Hematology, Bone Marrow Transplantation, Methodology of Clinical Research",
+  "durationHead": "When and for how long?",
+  "duration":"5 months. October 1, 2022 – March 1, 2023.",
+  "roleHead": "Who were you at the time of the rotation?",
+  "role":"Senior (6 year) medical student (Sechenov University, Moscow, Russia)",
+  "impactHead": "How did this experience impact your life (from 0 to 10)?",
+  "impact":"10",
+  "experienceHead": "What did you do during the rotation?",
+  "experience":"My observership began with a month in a bone marrow transplantation unit, followed by three weeks in the hematology department at Advanced Centre for Treatment, Research & Education in Cancer (ACTREC) at the Tata Memorial Centre in Mumbai. ACTREC, a leading Asian oncology center, provided invaluable exposure to advanced medical technology and high-volume patient care. I participated in patient examinations, treatment discussions and significantly expanded my hematology knowledge. Concurrently, I gained experience in clinical research methodology, from data collection and study design to statistical analysis. I collaborated with Indian colleagues on a research protocol for Hodgkin lymphoma. In November 2022, I attended a major Indian hematology conference in Kolkata. In December 2022, I spent at the hematology department of the University College of Medical Sciences (UCMS) in Delhi, where I gained valuable experience in managing patients with thalassemia and hemophilia – conditions less commonly encountered in Russia. The final two months of my observership were spent at the Tata Medical Centre in Kolkata, observing both outpatient and inpatient care and actively participating in multidisciplinary discussions of difficult clinical cases.",
+  "findingHead": "How did you find this rotation?",
+  "finding": "Since 2021 I've volunteered with EAFO: i was a scientific coordinator of 7th EAFO Hematology Forum and Basic Courses on Oncology. Inspired by my colleague and friend, Ekaterina Popova, I applied for a Russian Presidential Scholarship for international study. My mentor and founder of EAFO and ECRC, Dr. Soma, suggested India, home to leading oncology centers partnering with the Eurasian Council for Cancer Research (ECRC).",
+  "projectsHead": "Were there any long-haul projects of any kind as a result of this internship?",
+  "projects": "Yes, the professional connections I established with Indian colleagues during my observership have already yielded significant results. Experts from ACTREC served as international speakers at the Hodgkin Lymphoma Conference at the Pirogov National Medical Surgical Center (where I am currently completing my residency) in April and December 2023 and October 2024. Furthermore, we are collaborating on a joint grant application to the Russian Science Foundation (RSF) and the Department of Science and Technology (DST) of India’s Ministry of Science and Technology. The insights I gained from observing the organization of the international hematology conference in Kolkata directly informed my work in coordinating the ECRC-EAFO Seminar on Academic Research in Oncology (SACROH-2023) and in organizing workshops and forums on Hodgkin lymphoma and multiple myeloma at the Pirogov National Medical Surgical Center.",
+  "adviceHead": "Any advice what could be improved in the externship?",
+  "advice":"I thoroughly enjoyed every aspect of my observership! It was a pivotal step in my professional development, deepening my hematological knowledge, preparing me for my residency, improving my English language skills and providing invaluable experience working with leading experts. Observing the organization of oncology care in various hospitals shaped my understanding of best clinical practice. I successfully achieved all my observership goals.",
+  "difficultiesHead": "Which difficulties you had to overcome and where you wish you could have any help with?",
+  "difficulties":"One significant challenge I faced was a delay in receiving my Presidential Scholarship funds due to technical issues upon arrival. Thankfully, the EAFO team stepped in with critical support to resolve the issue. Communication with colleagues was occasionally hindered by their use of local languages, creating challenges in both routine work and beyond. However, I have overcome this by learning some basic Hindi phrases and words.",
+  "sponsorHead": "Who sponsored your trip?",
+  "sponsor": "My observership was funded by the Presidential Scholarship of the Russian Federation.",
+"images": [
+  "/feedbackImages/Yulia_Protopopova/image1.jpg",
+  "/feedbackImages/Yulia_Protopopova/image2.jpg",
+  "/feedbackImages/Yulia_Protopopova/image3.jpg",  
+  "/feedbackImages/Yulia_Protopopova/image4.jpg",
+  "/feedbackImages/Yulia_Protopopova/image5.jpg",
+  "/feedbackImages/Yulia_Protopopova/image6.jpg",
+  "/feedbackImages/Yulia_Protopopova/image7.jpg",
+  "/feedbackImages/Yulia_Protopopova/image8.jpg",
+  "/feedbackImages/Yulia_Protopopova/image9.jpg",
+  "/feedbackImages/Yulia_Protopopova/image10.jpg",
+  "/feedbackImages/Yulia_Protopopova/image11.jpg",
+  "/feedbackImages/Yulia_Protopopova/image12.jpg"
+
+]
+},
+{
+  "userImage":"/feedbackImages/FROLOV_Pavel/FROLOV Pavel.avif",
+
+"name": "FROLOV Pavel",
+"designation": "MD",
+"where": "Where?",
+"location": "University College of Medical Sciences (UCMS) - Institute of Medical Sciences, New Delhi, India",
+"fieldHead": "Rotation focus (field)",
+"field":"Pathological Anatomy, Haematopathology",
+"durationHead": "When and for how long?",
+"duration":"1 month. 14 April - 12 May 2024",
+"roleHead": "Who were you at the time of the rotation?",
+"role":"A pathologist at the Smolensk Regional Clinical Oncological Dispensary.",
+"impactHead": "How did this experience impact your life (from 0 to 10)?",
+"impact":"10",
+"experienceHead": "What did you do during the rotation?",
+"experience":"The main goal of the internship was to master basic practical skills in the field of diagnostics of non-oncological and oncological diseases of haematolymphoid organs besides that to form an integrated approach to the perception of continuity of cytological diagnostics in conjunction with morphological diagnostics due to the differences compared to Russian practice. Pathologists carried out both cytological and morphological diagnostics 'не отходя от кассы', which made, having opened their mouths, during the whole time of stay there to be surprised how cleverly and fully, and, most importantly, much more effective this approach looked.",
+"findingHead": "How did you find this rotation?",
+"finding": "As an EAFO Fellow, I was fortunate enough to be part of this truly mind- blowing adventure. If it had not been for Dr Soma, I would still be working as a pathologist.",
+"projectsHead": "Were there any long-haul projects of any kind as a result of this internship?",
+"projects": "At the moment I do not have any such projects in my plans. However, this invaluable experience has given me a new perspective on my life, not only in the context of professional development, but also in terms of everyday life and relationships with people. The high level of integrity among doctors of various specialities that I saw in India inspires me to do my best to develop a similar approach in Russia.",
+"adviceHead": "Any advice what could be improved in the externship?",
+"advice":"I would suggest a more structured plan if you are preparing for an internship trip. I didn't know what to prepare ahead. Due to this, my internship experiences were less productive than I expected.",
+"difficultiesHead": "Which difficulties you had to overcome and where you wish you could have any help with?",
+"difficulties":"The most difficult challenge for me was the language barrier. Due to the lack of practice in English, especially in the medical field, the first week was spent in adapting and establishing a common vocabulary. I would also advise you to master basic foundation in Hindi, which will make everyday life in India much easier.",
+"sponsorHead": "Who sponsored your trip?",
+"sponsor": "As I am an EAFO scholarship holder, EAFO funded most of the expenses. I financed my meals and personal expenses.",
+"images": [
+"feedbackImages/FROLOV_Pavel/image1.jpg",
+"feedbackImages/FROLOV_Pavel/image2.jpg",
+"feedbackImages/FROLOV_Pavel/image3.jpg",
+"feedbackImages/FROLOV_Pavel/image4.jpg",
+"feedbackImages/FROLOV_Pavel/image5.jpg"
+]
+},
+
+{
+  "userImage":"/feedbackImages/images.png",
+
+"name": "Zhilenkova Angelina Vladimirovna",
+"designation": "MD",
+"where": "Where?",
+"location": "Kailash Cancer Hospital & Research Centre, Gujrat, India",
+"fieldHead": "Rotation focus (field)",
+"field":"Head and Neck surgery",
+"durationHead": "When and for how long?",
+"duration":"January 2020, 2 weeks",
+"roleHead": "Who were you at the time of the rotation?",
+"role":"4th-year medical student",
+"impactHead": "How did this experience impact your life (from 0 to 10)?",
+"impact":"8 - this valuable experience dramatically changed my career plan since that time I was going to become a Head and Neck Surgeon.",
+"experienceHead": "What did you do during the rotation?",
+"experience":"Mostly observation; sometimes I could take a more active role, if the surgeons allowed",
+"findingHead": "How did you find this rotation?",
+"finding": "That was a very valuable and enriching experience. I can sincerely recommend this center since here you can observe a really good level of cancer care, highly qualified medical staff and very high level of surgery (including reconstructive and microsurgery).",
+"projectsHead": "Were there any long-haul projects of any kind as a result of this internship?",
+"projects": "No",
+"adviceHead": "Any advice what could be improved in the externship?",
+"advice":"No",
+"difficultiesHead": "Which difficulties you had to overcome and where you wish you could have any help with?",
+"difficulties":"No",
+"sponsorHead": "Who sponsored your trip?",
+"sponsor": "Home University",
+"images": [
+
+]
+}
     ]
   },
 
@@ -141,27 +274,65 @@
     "heading": " Institutions where FIRMST rotations/fellowship programs have been recently conducted",
     "locations": [
       {
-        "title": "INDIA",
+        "title": "India",
         "points": [
-          "UCMS-DELHI",
-          "AMRITA HOSPITAL-KOCHI",
-          "AMRITA HOSPITAL-FARIDABAD",
-          "TATA MEDICAL CENTRE-CALCUTTA",
-          "CACHAR CANCER CENTRE-SILCHAR, ASSAM"
+          "University College of Medical Sciences, Delhi",
+          "Amrita Institute of Medical Sciences, Kochi, Kerala",
+          "Tata Medical Center, Kolkata, West Bengal",
+          "Cachar Cancer Hospital and Research Centre, Silchar, Assam",
+          "Patel Hospital, Jalandhar, Punjab",
+          "and others"
         ],
         "image": "https://static.wixstatic.com/media/df6cc5_03d2bb04cb16409e9817d754772ee1ef~mv2.png"
       },
       {
-        "title": "HUNGARY",
+        "title": "Hungary",
         "points": [
-          "DUNA MEDICAL CENTRE-BUDAPEST",
-          "UNIVERSITY OF SZEGED-SZEGED"
+          "Saint Stephan Hospital, Budapest",
+          " National Institute of Oncology (Országos Onkológiai Intézet), Budapest",
+          "'Venot' – please clarify, this name may contain a typo"
+         
         ],
         "image": "https://static.wixstatic.com/media/df6cc5_8bfe6899c84a441fa36a86d4bd3f37fb~mv2.png"
       },
       {
-        "title": "SWITZERLAND",
-        "points": ["GENOLIER CLINIC-GENOLIER"],
+        "title": "France",
+        "points": ["Institute Gustave Roussy (IGR), Villejuif"],
+        "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+      },
+      {
+        "title": "Spain",
+        "points": ["GenesisCare, Madrid"],
+        "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+      },
+      {
+        "title": "Switzerland",
+        "points": ["University Hospital Zurich (UniversitätsSpital Zürich), Zurich"],
+        "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+      },
+      {
+        "title": "Germany",
+        "points": ["University Hospital Tübingen, Tübingen"],
+        "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+      },
+      {
+        "title": "Czech Republic",
+        "points": ["University Hospital Motol, Prague"],
+        "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+      },
+      {
+        "title": "United Kingdom",
+        "points": ["University College London Hospitals (UCLH)"],
+        "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
+      },
+      {
+        "title": "United States",
+        "points": ["Memorial Sloan Kettering Cancer Center, New York",
+        "UT MD Anderson Cancer Center, Houston, Texas",
+        "Greenebaum Comprehensive Cancer Center, University of Maryland, Baltimore",
+        "National Cancer Institute (NCI), Bethesda, Maryland",
+        "University of Pennsylvania, Philadelphia"
+        ],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       }
     ]
@@ -234,8 +405,7 @@
     "paragraph1": "FIRMST Study Abroad is a platform for tailoring personalized plan for international clinical or scientific rotations in many fields of Medicine and Allied Sciences. We are aimed to facilitate a better experience of away externships by working with reliable partner institutions, orchestrating official paperwork and helping deal with organizational issues before and during the rotation. We have already had much positive feedback from students and doctors who had such experience and eventually come to the decision to launch a full-fledged international exchange program. You can be the next candidate!",
     "heading": "History behind and our Philosophy",
     "paragraph2": "Some of you may have already heard about the <a class='text-blue-700 underline font-semibold' href='https://www.firmst.tech/' target ='_blank'> FIRMST Forum </a> – or even taken part in it. The FIRMST Forum (Forum for Interdisciplinary Research in Medical Science and Technology), first launched in 2020 by a team of enthusiastic students, has since evolved into an independent initiative under the leadership of its founder and director, <a class='text-blue-700 underline font-semibold' href='https://www.drsoma.info/' target='_blank'> Dr. Somasundaram SUBRAMANIAN (Dr. Soma)</a> surgical oncologist and philanthropist, and the Founder & CEO, of the <a class='text-blue-700 underline font-semibold' href='https://www.eafo.info/' target='_blank'> Eurasian Federation of Oncology (EAFO)</a> The forum has a broad scope of interest and covers numerous fields in medicine and related sciences.",
-    "paragraph3": "Over time, many members of our team have graduated from university or achieved professional milestones, including internships with leading experts both abroad and in Russia. At different stages, they were inspired by former EAFO scholars or colleagues who had received support through various initiatives led by Dr. Soma since 1998 — whether through connections with international specialists or guidance from seasoned professionals within EAFO, FIRMST, and partner organizations.",
-    "paragraph4": "Preparing for an internship from scratch is a time- and energy-consuming process — and we know this firsthand. Now, the time has come to share this experience with you and help tailor the process to your personal goals. Together, we can contribute to a better future for patients and the advancement of science and technology."
+    "paragraph3": "Over time, many members of our team have graduated from university or achieved professional milestones, including internships with leading experts both abroad and in Russia. At different stages, they were inspired by former EAFO scholars or colleagues who had received support through various initiatives led by Dr. Soma since 1998 — whether through connections with international specialists or guidance from seasoned professionals within EAFO, FIRMST, and partner organizations. <br><br>Preparing for an internship from scratch is a time- and energy-consuming process — and we know this firsthand. Now, the time has come to share this experience with you and help tailor the process to your personal goals. Together, we can contribute to a better future for patients and the advancement of science and technology."
   },
   "dashboard": {
     "title": "User Dashboard",

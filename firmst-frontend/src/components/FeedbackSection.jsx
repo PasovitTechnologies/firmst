@@ -3,7 +3,12 @@ import { Dialog, DialogContent, DialogOverlay } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/navigation";
+import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 //
 const FeedbackSection = () => {
   const { t } = useTranslation();
@@ -14,20 +19,40 @@ const FeedbackSection = () => {
 
   return (
     <div className="px-3 md:px-0 mt-12 flex flex-col items-center">
-      <div className="bg-white rounded-2xl shadow-lg px-8 py-7 max-w-5xl w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {feedbacks.map((feedback, index) => (
-            <Card
-              key={index}
-              className="flex flex-col items-center gap-4 p-4 text-center "
-            >
+      <div className="bg-white rounded-2xl shadow-lg px-4 py-10 max-w-5xl w-full mx-auto relative">
+      {/* Navigation Buttons */}
+      <button className="swiper-button-prev absolute top-1/2 -translate-y-1/2 left-2 z-10  text-white p-2 rounded-full ">
+      <HiOutlineChevronLeft className="w-4 h-4" size={10}/>      </button>
+      <button className="swiper-button-next absolute top-1/2 -translate-y-1/2 right-2 z-10  text-white p-2 rounded-full ">
+      <HiOutlineChevronRight className="w-4 h-4" />      </button>
+
+      <Swiper
+        modules={[Autoplay, Navigation]}
+        spaceBetween={20}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+      >
+        {feedbacks.map((feedback, index) => (
+          <SwiperSlide key={index}>
+            <div className="flex flex-col items-center gap-4 p-4 text-center bg-white rounded-2xl shadow border border-gray-200">
               <img
                 src={feedback.userImage}
-                className="w-48 h-48 rounded-full  object-cover bg-gray-300 "
+                className="w-48 h-48 rounded-full object-cover bg-gray-300"
                 alt="study abroad"
               />
               <div>
-                <h3 className="font-bold  text-[#cf6239] ">
+                <h3 className="font-bold text-[#cf6239]">
                   {feedback.name.toUpperCase()}
                 </h3>
                 <p className="text-purple-900 text-sm mt-2">
@@ -35,17 +60,17 @@ const FeedbackSection = () => {
                 </p>
               </div>
 
-              <Button
-                className="mt-2 text-sm border border-black cursor-pointer"
-                variant="outline"
+              <button
+                className="mt-2 text-sm border border-black px-4 py-2 rounded-md hover:bg-black hover:text-white transition"
                 onClick={() => setSelectedFeedback(feedback)}
               >
                 {t("feedbacks.button")}
-              </Button>
-            </Card>
-          ))}
-        </div>
-      </div>
+              </button>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
 
       <Dialog
         open={!!selectedFeedback}

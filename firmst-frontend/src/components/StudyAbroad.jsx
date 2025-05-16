@@ -17,7 +17,7 @@ const StudyAbroad = () => {
       <div className="bg-[#f3f6fb] flex flex-col md:flex-row shadow-gray-300 shadow-2xl max-w-5xl mx-auto border-3 overflow-hidden border-gray-300 md:border-gray-200 rounded-xl">
         <div className="md:w-1/2 p-4 pb-0 md:p-8 md:pr-0">
           <img
-            src="/images/studt_img.jpg"
+            src="/images/FIRMST_SA_Hor_Logo.png"
             className="w-32 mb-4"
             alt="Firmst Logo"
           />
@@ -40,11 +40,14 @@ const StudyAbroad = () => {
                       dangerouslySetInnerHTML={{
                         __html: t("studyAbroad.paragraph2"),
                       }}
+                      className="text-left mb-5"
+                    ></p>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: t("studyAbroad.paragraph3"),
+                      }}
                       className="text-left"
                     ></p>
-                    <p className="mt-2 text-left">
-                      {t("studyAbroad.paragraph3")}
-                    </p>
                   </DialogDescription>
                 </DialogHeader>
               </DialogContent>
