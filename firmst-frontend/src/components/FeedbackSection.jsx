@@ -174,14 +174,17 @@ const FeedbackSection = () => {
 
               <div className="mt-4 w-full">
                 <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 p-2">
-                  {selectedFeedback?.images?.map((src, index) => (
-                    <img
-                      key={index}
-                      src={src}
-                      alt={`Gallery ${index}`}
-                      className="w-full rounded-lg object-cover break-inside-avoid shadow-md"
-                    />
-                  ))}
+                  <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 p-2">
+  {selectedFeedback?.images?.map((src, index) => (
+    <img
+      key={index}
+      src={src}
+      alt={`Gallery ${index}`}
+      className="w-full rounded-lg object-cover break-inside-avoid shadow-md"
+    />
+  ))}
+</div>
+
                 </div>
               </div>
             </>

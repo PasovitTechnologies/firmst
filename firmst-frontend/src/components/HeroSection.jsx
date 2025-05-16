@@ -12,7 +12,7 @@ const HeroSection = ({ contactFormRef }) => {
     <div className="relative lg:min-h-[55vh] lg:max-h-[62.5vh] overflow-hidden flex items-center justify-center text-white bg-[#cf6239] mt-20">
       <div className="relative w-full  md:py-0 h-full z-10 flex flex-col-reverse md:flex-row md:items-center items-end md:justify-between max-w-6xl mx-auto  md:px-0">
         <div className="absolute md:static w-[60%] md:w-[40%] left-6 top-6 text-left md:my-0  md:pl-4 lg:pl-20 z-30">
-          <h2 className="text-3xl md:text-[2.5rem] font-[900] leading-tight drop-shadow-xl">
+          <h2 className="text-2xl md:text-[2.2rem] font-[900] leading-tight drop-shadow-xl">
             {t("homepage.title")}
           </h2>
 

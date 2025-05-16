@@ -78,15 +78,15 @@
       "sponsorHead": "Who sponsored your trip?",
       "sponsor": "The first rotation (5 months) was covered by the Presidential Stipend to Study Abroad of the Russian Federation. The second one (1 month) I covered out of my pocket.",
     "images": [
+      "/feedbackImages/ekaterina/image6.jpg",
+      "/feedbackImages/ekaterina/image9.jpg",
       "/feedbackImages/ekaterina/image1.jpg",
       "/feedbackImages/ekaterina/image2.jpg",
       "/feedbackImages/ekaterina/image3.jpg",  
       "/feedbackImages/ekaterina/image4.jpg",
       "/feedbackImages/ekaterina/image5.jpg",
-      "/feedbackImages/ekaterina/image6.jpg",
       "/feedbackImages/ekaterina/image7.jpg",
       "/feedbackImages/ekaterina/image8.jpg",
-      "/feedbackImages/ekaterina/image9.jpg",
       "/feedbackImages/ekaterina/image10.jpg",
       "/feedbackImages/ekaterina/image11.jpg",
       "/feedbackImages/ekaterina/image12.jpg"
@@ -279,7 +279,7 @@
         "points": [
           "<b>University College of Medical Sciences</b>, Delhi",
           "<b>Amrita Institute of Medical Sciences</b>, Kochi, Kerala",
-          "<b>Tata Medical Center, Kolkata</b>, West Bengal",
+          "<b>Tata Medical Center</b>, Kolkata, West Bengal",
           "<b>Cachar Cancer Hospital and Research Centre</b>, Silchar, Assam",
           "<b>Patel Hospital</b>, Jalandhar, Punjab",
           "and others"
@@ -290,8 +290,7 @@
         "title": "Hungary",
         "points": [
           "<b>Saint Stephan Hospital</b>, Budapest",
-          " <b>National Institute of Oncology (Országos Onkológiai Intézet)</b>, Budapest",
-          "<b>'Venot'</b>"
+          " <b>National Institute of Oncology (Országos Onkológiai Intézet)</b>, Budapest"
          
         ],
         "image": "https://static.wixstatic.com/media/df6cc5_8bfe6899c84a441fa36a86d4bd3f37fb~mv2.png"
@@ -329,7 +328,7 @@
       {
         "title": "United States",
         "points": ["<b>Memorial Sloan Kettering Cancer Center</b>, New York",
-        "<b>UT MD Anderson Cancer Center, Houston</b>, Texas",
+        "<b>UT MD Anderson Cancer Center</b>, Houston, Texas",
         "<b>Greenebaum Comprehensive Cancer Center, University of Maryland</b>, Baltimore",
         "<b>National Cancer Institute (NCI)</b>, Bethesda, Maryland",
         "<b>University of Pennsylvania</b>, Philadelphia"

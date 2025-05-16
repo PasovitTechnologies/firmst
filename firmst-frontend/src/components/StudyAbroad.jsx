@@ -30,7 +30,7 @@ const StudyAbroad = () => {
                   {t("studyAbroad.heading")}
                 </button>
               </DialogTrigger>
-              <DialogContent className="px-3 md:px-5 md:max-w-[50vw]">
+              <DialogContent className="px-3 md:px-5 md:max-w-[50vw] max-h-[90vh] overflow-y-auto">
                 <DialogHeader className="mt-4">
                   <DialogTitle className="md:text-2xl">
                     {t("studyAbroad.heading")}
