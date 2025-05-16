@@ -54,14 +54,15 @@ const StudyAbroad = () => {
             </Dialog>
           </div>
         </div>
-        <div className="md:w-1/2 relative">
-          <img
-            src="/images/studt_img.jpg"
-            alt="Study abroad illustration"
-            className="h-full object-cover  md:object-right"
-          />
-          <div className="h-full w-full absolute top-0 bg-gradient-to-t md:bg-gradient-to-l from-transparent via-80% via-transparent to-100% to-[#f3f6fb]"></div>
-        </div>
+        <div className="md:w-1/2 relative h-64 md:h-auto">
+  <img
+    src="/images/studt_img.jpg"
+    alt="Study abroad illustration"
+    className="w-full h-full object-cover md:object-right"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-l from-transparent via-transparent to-[#f3f6fb]"></div>
+</div>
+
       </div>
     </div>
   );
