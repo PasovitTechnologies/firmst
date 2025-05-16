@@ -245,7 +245,7 @@
       "userImage":         "feedbackImages/Yana_Kokanovskaya/Yana Kokanovskaya.jpg",
 
     "name": "Кохановская Яна Юрьевна",
-    "designation": "Мэриленд",
+    "designation": "",
     "where": "Где?",
     "location": "Genolier Hospital – Госпиталь Женолье, Женолье, Швейцария",
     "fieldHead": "Фокус стажировки (область)",
@@ -277,7 +277,7 @@
     "userImage":"feedbackImages/Yulia_Protopopova/Yulia Protopopova.jpg",
 
   "name": "Юлия Протопопова",
-  "designation": "Мэриленд",
+  "designation": "",
   "where": "Где?",
   "location": "Advanced Centre for Treatment, Research and Education in Cancer (ACTREC) –  Передовой Центр лечения, исследований и образования в области рака, г. Мумбаи, штат Махарашта, Индия, University College of Medical Sciences (UCMS) – Университетский колледж медицинских наук, г. Нью-Дели, Индия, Tata Medical Center – Медицинском центр имени Тата, г. Калькутта, штат Западная Бенгалия, Индия",
   "fieldHead": "Фокус стажировки (область)",
@@ -320,7 +320,7 @@
   "userImage":"feedbackImages/FROLOV_Pavel/FROLOV Pavel.avif",
 
 "name": "Фролов Павел",
-"designation": "невролог",
+"designation": "",
 "where": "Где?",
 "location": "University College of Medical Sciences (UCMS) – Институт медицинских наук, г. Нью-Дели, Индия",
 "fieldHead": "Фокус стажировки (область)",
@@ -356,7 +356,7 @@
   "userImage":"feedbackImages/images.png",
 
 "name": "Жиленкова Ангелина Владимировна",
-"designation": "невролог",
+"designation": "",
 "where": "Где?",
 "location": "Онкологический госпитали и исследовательский центр Кайлаш, Гуджарат, Индия",
 "fieldHead": "Фокус стажировки (область)",
