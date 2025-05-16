@@ -22,7 +22,7 @@
   },
 
   "requestForm": {
-    "fullNameHeading":"Имя",
+    "fullNameHeading":"фио",
     "heading": "Оставьте заявку на консультацию прямо сейчас!",
     "description": "Заполните форму ниже, и мы свяжемся с вами в ближайшее время.",
     "firstName": "Имя",
