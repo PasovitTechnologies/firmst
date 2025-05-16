@@ -277,11 +277,11 @@
       {
         "title": "India",
         "points": [
-          "University College of Medical Sciences, Delhi",
-          "Amrita Institute of Medical Sciences, Kochi, Kerala",
-          "Tata Medical Center, Kolkata, West Bengal",
-          "Cachar Cancer Hospital and Research Centre, Silchar, Assam",
-          "Patel Hospital, Jalandhar, Punjab",
+          "<b>University College of Medical Sciences</b>, Delhi",
+          "<b>Amrita Institute of Medical Sciences</b>, Kochi, Kerala",
+          "<b>Tata Medical Center, Kolkata</b>, West Bengal",
+          "<b>Cachar Cancer Hospital and Research Centre</b>, Silchar, Assam",
+          "<b>Patel Hospital</b>, Jalandhar, Punjab",
           "and others"
         ],
         "image": "https://static.wixstatic.com/media/df6cc5_03d2bb04cb16409e9817d754772ee1ef~mv2.png"
@@ -289,50 +289,50 @@
       {
         "title": "Hungary",
         "points": [
-          "Saint Stephan Hospital, Budapest",
-          " National Institute of Oncology (Országos Onkológiai Intézet), Budapest",
-          "'Venot' – please clarify, this name may contain a typo"
+          "<b>Saint Stephan Hospital</b>, Budapest",
+          " <b>National Institute of Oncology (Országos Onkológiai Intézet)</b>, Budapest",
+          "<b>'Venot'</b>"
          
         ],
         "image": "https://static.wixstatic.com/media/df6cc5_8bfe6899c84a441fa36a86d4bd3f37fb~mv2.png"
       },
       {
         "title": "France",
-        "points": ["Institute Gustave Roussy (IGR), Villejuif"],
+        "points": ["<b>Institute Gustave Roussy (IGR)</b>, Villejuif"],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       },
       {
         "title": "Spain",
-        "points": ["GenesisCare, Madrid"],
+        "points": ["<b>GenesisCare</b>, Madrid"],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       },
       {
         "title": "Switzerland",
-        "points": ["University Hospital Zurich (UniversitätsSpital Zürich), Zurich"],
+        "points": ["<b>University Hospital Zurich (UniversitätsSpital Zürich)</b>, Zurich"],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       },
       {
         "title": "Germany",
-        "points": ["University Hospital Tübingen, Tübingen"],
+        "points": ["<b>University Hospital Tübingen</b>, Tübingen"],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       },
       {
         "title": "Czech Republic",
-        "points": ["University Hospital Motol, Prague"],
+        "points": ["<b>University Hospital Motol</b>, Prague"],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       },
       {
         "title": "United Kingdom",
-        "points": ["University College London Hospitals (UCLH)"],
+        "points": ["<b>University College London Hospitals (UCLH)</b>"],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       },
       {
         "title": "United States",
-        "points": ["Memorial Sloan Kettering Cancer Center, New York",
-        "UT MD Anderson Cancer Center, Houston, Texas",
-        "Greenebaum Comprehensive Cancer Center, University of Maryland, Baltimore",
-        "National Cancer Institute (NCI), Bethesda, Maryland",
-        "University of Pennsylvania, Philadelphia"
+        "points": ["<b>Memorial Sloan Kettering Cancer Center</b>, New York",
+        "<b>UT MD Anderson Cancer Center, Houston</b>, Texas",
+        "<b>Greenebaum Comprehensive Cancer Center, University of Maryland</b>, Baltimore",
+        "<b>National Cancer Institute (NCI)</b>, Bethesda, Maryland",
+        "<b>University of Pennsylvania</b>, Philadelphia"
         ],
         "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
       }

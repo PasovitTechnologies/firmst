@@ -40,11 +40,12 @@ const HospitalsList = () => {
                   <h3 className="text-white text-xl tracking-wide font-[450] mb-2">
                     {location.title}
                   </h3>
-                  <ul className="text-white -space-y-1 font-[350] font-bold">
-                    {location.points.map((point, idx) => (
-                      <li key={idx}>{point}</li>
-                    ))}
-                  </ul>
+                  <ul className="text-white -space-y-1 font-[350]">
+  {location.points.map((point, idx) => (
+    <li key={idx} dangerouslySetInnerHTML={{ __html: point }} />
+  ))}
+</ul>
+
                 </div>
               );
             })}

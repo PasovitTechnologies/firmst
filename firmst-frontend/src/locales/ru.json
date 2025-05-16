@@ -83,73 +83,73 @@
   {
     "title": "ИНДИЯ",
     "points": [
-      "University College of Medical Sciences - Дели",
-      "Amrita Institute of Medical Sciences - Кочи, Керала",
-      "Tata Medical Center - Колката, Западная Бенгалия",
-      "Cachar Cancer Hospital and Research Centre - Сильчар, Ассам",
-      "Patel Hospital - Джаландхар, Пенджаб"
+      "<b>University College of Medical Sciences</b> - Дели",
+      "<b>Amrita Institute of Medical Sciences</b> - Кочи, Керала",
+      "<b>Tata Medical Center - Колката</b>, Западная Бенгалия",
+      "<b>Cachar Cancer Hospital and Research Centre</b> - Сильчар, Ассам",
+      "<b>Patel Hospital</b> - Джаландхар, Пенджаб"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_03d2bb04cb16409e9817d754772ee1ef~mv2.png"
   },
   {
     "title": "ВЕНГРИЯ",
     "points": [
-      "Saint Stephan Hospital - Будапешт",
-      "National Institute of Oncology (Országos Onkológiai Intézet) - Будапешт",
-      "Venot – уточните, возможно, ошибка в названии"
+      "<b>Saint Stephan Hospital</b> - Будапешт",
+      "<b>National Institute of Oncology (Országos Onkológiai Intézet)</b> - Будапешт",
+      "<b>Venot – уточните, возможно</b>, ошибка в названии"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_8bfe6899c84a441fa36a86d4bd3f37fb~mv2.png"
   },
   {
     "title": "ФРАНЦИЯ",
     "points": [
-      "Institut Gustave Roussy (IGR) - Вильжуиф"
+      "<b>Institute Gustave Roussy (IGR)</b> - Вильжуиф"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   },
   {
     "title": "ИСПАНИЯ",
     "points": [
-      "GenesisCare - Мадрид"
+      "<b>GenesisCare</b> - Мадрид"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   },
   {
     "title": "ШВЕЙЦАРИЯ",
     "points": [
-      "University Hospital Zurich (UniversitätsSpital Zürich) - Цюрих"
+      "<b>University Hospital Zurich (UniversitätsSpital Zürich)</b> - Цюрих"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   },
   {
     "title": "ГЕРМАНИЯ",
     "points": [
-      "University Hospital Tübingen - Тюбинген"
+      "<b>University Hospital Tübingen</b> - Тюбинген"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   },
   {
     "title": "ЧЕХИЯ",
     "points": [
-      "University Hospital Motol - Прага"
+      "<b>University Hospital Motol</b> - Прага"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   },
   {
     "title": "ВЕЛИКОБРИТАНИЯ",
     "points": [
-      "University College London Hospitals (UCLH)"
+      "<b>University College London Hospitals (UCLH)</b>"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   },
   {
     "title": "США",
     "points": [
-      "Memorial Sloan Kettering Cancer Center - Нью-Йорк",
-      "UT MD Anderson Cancer Center - Хьюстон, Техас",
-      "Greenebaum Comprehensive Cancer Center, University of Maryland - Балтимор",
-      "National Cancer Institute (NCI) - Бетесда, Мэриленд",
-      "University of Pennsylvania - Филадельфия"
+      "<b>Memorial Sloan Kettering Cancer Center</b> - Нью-Йорк",
+      "<b>UT MD Anderson Cancer Center - Хьюстон</b>, Техас",
+      "<b>Greenebaum Comprehensive Cancer Center</b>, University of Maryland - Балтимор",
+      "<b>National Cancer Institute (NCI)</b> - Бетесда, Мэриленд",
+      "<b>University of Pennsylvania</b> - Филадельфия"
     ],
     "image": "https://static.wixstatic.com/media/df6cc5_dad03a1661514812b69afad8773a5ea9~mv2.png"
   }
