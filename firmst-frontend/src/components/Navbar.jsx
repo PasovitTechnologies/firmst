@@ -13,8 +13,9 @@ const Navbar = () => {
   const dropdownRef = useRef(null);
 
   const languages = [
-    { code: "en", name: "English", flag: "/flags/us_flag.png" },
     { code: "ru", name: "Русский", flag: "/flags/russia_flag.png" },
+    { code: "en", name: "English", flag: "/flags/us_flag.png" },
+    
   ];
 
   const changeLanguage = (lang) => {
