@@ -17,7 +17,7 @@ const StudyAbroad = () => {
       <div className="bg-[#f3f6fb] flex flex-col md:flex-row shadow-gray-300 shadow-2xl max-w-5xl mx-auto border-3 overflow-hidden border-gray-300 md:border-gray-200 rounded-xl">
         <div className="md:w-1/2 p-4 pb-0 md:p-8 md:pr-0">
           <img
-            src="/images/FIRMST_SA_Hor_Logo.png"
+            src="/images/studt_img.jpg"
             className="w-32 mb-4"
             alt="Firmst Logo"
           />
@@ -53,7 +53,7 @@ const StudyAbroad = () => {
         </div>
         <div className="md:w-1/2 relative">
           <img
-            src="/images/study-abroad-img2.jpg"
+            src="/images/studt_img.jpg"
             alt="Study abroad illustration"
             className="h-full object-cover  md:object-right"
           />

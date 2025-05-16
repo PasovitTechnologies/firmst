@@ -13,7 +13,7 @@ const HospitalsList = () => {
       <div className=" rounded-2xl">
         <div className="md:w-1/2 h-72 md:h-full md:absolute inset-0">
           <img
-            src="/images/image222.jpg"
+            src="/images/institutions.jpg"
             alt="Two female medical professionals reviewing information on a tablet"
             className="w-full h-full  object-cover object-right"
           />

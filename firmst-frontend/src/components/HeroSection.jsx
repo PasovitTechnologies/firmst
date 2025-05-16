@@ -29,7 +29,7 @@ const HeroSection = ({ contactFormRef }) => {
          md:w-[60%] flex  md:justify-center     relative"
         >
           <img
-            src="/images/heroImage2.jpg"
+            src="/images/heroImage3.jpg"
             alt="Doctor"
             className="h-96 md:h-fit w-full object-cover object-left md:object-contain relative z-10"
           />
