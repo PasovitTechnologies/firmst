@@ -3,22 +3,22 @@
   "services": "Services",
   "reviews": "Reviews",
   "about": "About",
-  "contact_number": "+123 456 7890",
+  "contact_number": "+7-931-111-44-55",
   "whatsapp": "WhatsApp",
   "language": "Language",
 
   "heroSection": {
-    "hero_title": "We Offer The Best Medical Internship Programmes Abroad",
+    "hero_title": "We offer the Best Medical Internship programmes for doctors, researchers, related professionals, and students!",
     "hero_description": "Join the leading medical internship programmes designed to provide hands-on experience in top hospitals across the globe. Start your journey today with professional guidance every step of the way.",
     "cta_button": "Complimentary Consultation"
   },
 
   "success_stories": {
     "heading": "Our Success Stories",
-    "story1": "15 years of experience in organising successful medical programmes for healthcare professionals!",
-    "story2": "Exposure to numerous medical cases & hands-on opportunities! <br/> <br/> More than 100 medical interns have been sent abroad!",
-    "story3": "Get trained by renowned medical experts.",
-    "story4": "Guidance with visa application."
+    "story1": "25 years of experience in organising successful medical programmes for healthcare professionals!",
+    "story2": "Exposure to numerous medical cases & hands-on opportunities!",
+    "story3": "Access to top class experts abroad including world-renowned key opinion leaders (KOLs).",
+    "story4": "Visa application support and possible assistance with logistics."
   },
 
   "requestForm": {
@@ -124,7 +124,7 @@
       },
       {
         "title": "STEP 3",
-        "description": "Receive feedback from our internship specialist and proceed with payment"
+        "description": " Receive Confirmation of the Internship and proceed with payment"
       },
       {
         "title": "STEP 4",
@@ -233,8 +233,9 @@
   "studyAbroad": {
     "paragraph1": "FIRMST Study Abroad is a platform for tailoring personalized plan for international clinical or scientific rotations in many fields of Medicine and Allied Sciences. We are aimed to facilitate a better experience of away externships by working with reliable partner institutions, orchestrating official paperwork and helping deal with organizational issues before and during the rotation. We have already had much positive feedback from students and doctors who had such experience and eventually come to the decision to launch a full-fledged international exchange program. You can be the next candidate!",
     "heading": "History behind and our Philosophy",
-    "paragraph2": "Some of you may have heard about or even participated in the <a class='text-blue-700 underline font-semibold' href='https://www.firmst.tech/' target ='_blank'> FIRMST Forum </a> – the Forum for Interdisciplinary Research in Medical Science and Technology which was first launched back in 2020. It was a separate project organized by the students under the umbrella of the <a class='text-blue-700 underline font-semibold' href='https://www.eafo.info/' target='_blank'> Eurasian Federation of Oncology (EAFO)</a> and lead by the EAFO Founder & CEO, Surgical Oncologist and Philanthropist <a class='text-blue-700 underline font-semibold' href='https://www.drsoma.info/' target='_blank'> Dr. Somasundaram SUBRAMANIAN (Dr. Soma)</a>. The scope of the FIRMST activities has been vast and included most medical specialties and allied sciences.",
-    "paragraph3": "As the time passed by, many members of our team graduated from the universities or achieved the other professional milestones and studied abroad, inspired by the history of the previous EAFO scholarships holders or doctors receiving any other help on the behalf of EAFO, either connections abroad or personal advice from the experienced EAFO or FIRMST experts. The preparation process for any rotation abroad from zero is very tedious and time-consuming, we went through all of this ourselves. Now, the time has come to share this experience with you, to shape it for your endeavors and benefit your career towards a better future in the interest of your patients and advancement of science and technology."
+    "paragraph2": "Some of you may have already heard about the <a class='text-blue-700 underline font-semibold' href='https://www.firmst.tech/' target ='_blank'> FIRMST Forum </a> – or even taken part in it. The FIRMST Forum (Forum for Interdisciplinary Research in Medical Science and Technology), first launched in 2020 by a team of enthusiastic students, has since evolved into an independent initiative under the leadership of its founder and director, <a class='text-blue-700 underline font-semibold' href='https://www.drsoma.info/' target='_blank'> Dr. Somasundaram SUBRAMANIAN (Dr. Soma)</a> surgical oncologist and philanthropist, and the Founder & CEO, of the <a class='text-blue-700 underline font-semibold' href='https://www.eafo.info/' target='_blank'> Eurasian Federation of Oncology (EAFO)</a> The forum has a broad scope of interest and covers numerous fields in medicine and related sciences.",
+    "paragraph3": "Over time, many members of our team have graduated from university or achieved professional milestones, including internships with leading experts both abroad and in Russia. At different stages, they were inspired by former EAFO scholars or colleagues who had received support through various initiatives led by Dr. Soma since 1998 — whether through connections with international specialists or guidance from seasoned professionals within EAFO, FIRMST, and partner organizations."
+    "paragraph3": "Preparing for an internship from scratch is a time- and energy-consuming process — and we know this firsthand. Now, the time has come to share this experience with you and help tailor the process to your personal goals. Together, we can contribute to a better future for patients and the advancement of science and technology."
   },
   "dashboard": {
     "title": "User Dashboard",

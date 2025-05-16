@@ -36,7 +36,7 @@ const ContactForm = ({ contactFormRef }) => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/firmst-form/submit-form",
+        "https://api.firmst.tech/api/firmst-form/submit-form",
         {
           method: "POST",
           headers: {

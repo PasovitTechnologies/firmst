@@ -8,7 +8,7 @@ const formRoutes = require("./routes/formRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4004;
 
 // MongoDB connection using MONGO_URI from .env
 const mongoURI = process.env.MONGO_URI;
