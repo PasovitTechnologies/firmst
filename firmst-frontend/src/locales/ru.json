@@ -22,10 +22,11 @@
   },
 
   "requestForm": {
+    "fullNameHeading":"Имя",
     "heading": "Оставьте заявку на консультацию прямо сейчас!",
     "description": "Заполните форму ниже, и мы свяжемся с вами в ближайшее время.",
-    "firstName": "Имя *",
-    "lastName": "Фамилия *",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
     "middleName": "Отчество",
     "contact": "Контактный номер",
     "specialization": "Ваша специализация",

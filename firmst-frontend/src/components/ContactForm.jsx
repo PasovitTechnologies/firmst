@@ -85,122 +85,111 @@ const ContactForm = ({ contactFormRef }) => {
         ></h3>
 
         <form onSubmit={handleSubmit} className="md:max-w-[70%] mx-auto mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
-            {/* Name Fields - Language-dependent order */}
-            {isRussian ? (
-              <>
-                <div>
-                  <label className="block mb-1 text-gray-500">{t("requestForm.lastName")}</label>
-                  <input
-                    value={formData.lastName}
-                    onChange={handleChange}
-                    required
-                    type="text"
-                    name="lastName"
-                    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                  />
-                </div>
-                <div>
-                  <label className="block mb-1 text-gray-500">{t("requestForm.firstName")}</label>
-                  <input
-                    value={formData.firstName}
-                    onChange={handleChange}
-                    required
-                    type="text"
-                    name="firstName"
-                    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                  />
-                </div>
-                <div>
-                  <label className="block mb-1 text-gray-500">{t("requestForm.middleName")}</label>
-                  <input
-                    value={formData.middleName}
-                    onChange={handleChange}
-                    type="text"
-                    name="middleName"
-                    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                  />
-                </div>
-              </>
-            ) : (
-              <>
-                <div>
-                  <label className="block mb-1 text-gray-500">{t("requestForm.firstName")}</label>
-                  <input
-                    value={formData.firstName}
-                    onChange={handleChange}
-                    required
-                    type="text"
-                    name="firstName"
-                    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                  />
-                </div>
-                <div>
-                  <label className="block mb-1 text-gray-500">{t("requestForm.middleName")}</label>
-                  <input
-                    value={formData.middleName}
-                    onChange={handleChange}
-                    type="text"
-                    name="middleName"
-                    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                  />
-                </div>
-                <div>
-                  <label className="block mb-1 text-gray-500">{t("requestForm.lastName")}</label>
-                  <input
-                    value={formData.lastName}
-                    onChange={handleChange}
-                    required
-                    type="text"
-                    name="lastName"
-                    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                  />
-                </div>
-              </>
-            )}
+         {/* Name Section */}
+<div className="col-span-1 md:col-span-2">
+  <label className="block mb-2 text-gray-700 font-semibold uppercase text-sm">
+    {t("requestForm.fullNameHeading") || "Name"}
+  </label>
 
-            <div>
-              <label className="block mb-1 text-gray-500">{t("requestForm.contact")}</label>
-              <PhoneInput
-                country={"ru"}
-                value={formData.phone}
-                onChange={handlePhoneChange}
-                inputProps={{
-                  name: "phone",
-                  required: true,
-                  className: "w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239] pl-10",
-                }}
-                containerClass="w-full"
-                inputClass="w-full pl-12 border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-                buttonClass="border-none bg-transparent"
-                dropdownStyle={{ zIndex: 1000 }}
-              />
-            </div>
-
-            <div>
-              <label className="block mb-1 text-gray-500">{t("requestForm.specialization")}</label>
-              <input
-                value={formData.specialization}
-                onChange={handleChange}
-                required
-                type="text"
-                name="specialization"
-                className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-              />
-            </div>
-
-            <div>
-              <label className="block mb-1 text-gray-500">{t("requestForm.email")}</label>
-              <input
-                value={formData.email}
-                onChange={handleChange}
-                required
-                type="email"
-                name="email"
-                className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
-              />
-            </div>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+    {isRussian ? (
+      <>
+        {["lastName", "firstName", "middleName"].map((field, i) => (
+          <div key={i}>
+            <label className="block mb-1 text-gray-500">
+              {t(`requestForm.${field}`)}
+              {(field === "lastName" || field === "firstName") && (
+                <span className="text-red-500">*</span>
+              )}
+            </label>
+            <input
+              type="text"
+              name={field}
+              required={field !== "middleName"}
+              value={formData[field]}
+              onChange={handleChange}
+              className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
+            />
           </div>
+        ))}
+      </>
+    ) : (
+      <>
+        {["firstName", "middleName", "lastName"].map((field, i) => (
+          <div key={i}>
+            <label className="block mb-1 text-gray-500">
+              {t(`requestForm.${field}`)}
+              {(field === "firstName" || field === "lastName") && (
+                <span className="text-red-500">*</span>
+              )}
+            </label>
+            <input
+              type="text"
+              name={field}
+              required={field !== "middleName"}
+              value={formData[field]}
+              onChange={handleChange}
+              className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
+            />
+          </div>
+        ))}
+      </>
+    )}
+  </div>
+</div>
+
+{/* Contact Info Row */}
+<div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-6">
+  <div>
+    <label className="block mb-1 text-gray-500">
+      {t("requestForm.contact")} <span className="text-red-500">*</span>
+    </label>
+    <PhoneInput
+      country={"ru"}
+      value={formData.phone}
+      onChange={handlePhoneChange}
+      inputProps={{
+        name: "phone",
+        required: true,
+        className: "w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239] pl-10",
+      }}
+      containerClass="w-full"
+      inputClass="w-full pl-12 border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
+      buttonClass="border-none bg-transparent"
+      dropdownStyle={{ zIndex: 1000 }}
+    />
+  </div>
+
+  <div>
+    <label className="block mb-1 text-gray-500">
+      {t("requestForm.email")} <span className="text-red-500">*</span>
+    </label>
+    <input
+      type="email"
+      name="email"
+      value={formData.email}
+      onChange={handleChange}
+      required
+      className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
+    />
+  </div>
+</div>
+<div>
+  <label className="block mb-1 text-gray-500 mt-8">
+    {t("requestForm.specialization")} <span className="text-red-500">*</span>
+  </label>
+  <input
+    value={formData.specialization}
+    onChange={handleChange}
+    required
+    type="text"
+    name="specialization"
+    className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-[#cf6239]"
+  />
+</div>
+
+
+
 
           <div className="mx-auto mt-5">
             <p className="text-xs text-gray-500 mt-4 tracking-wide leading-tight">{t("requestForm.content")}</p>
