@@ -204,7 +204,7 @@ const ContactForm = ({ contactFormRef }) => {
                 id="acceptTerms"
                 className="w-4 h-4"
               />
-              <label className="text-[0.8rem] text-gray-500">{t("requestForm.accept_terms")}</label>
+              <label className="text-[0.8rem] text-gray-500 mt-2">{t("requestForm.accept_terms")}</label>
             </div>
 
             <button
