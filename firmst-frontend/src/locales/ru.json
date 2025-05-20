@@ -352,7 +352,7 @@
 },
 
 {
-  "userImage":"feedbackImages/images.png",
+  "userImage":"feedbackImages/Angelina/Angelina.jpg",
 
 "name": "Жиленкова Ангелина Владимировна",
 "designation": "",
@@ -379,7 +379,12 @@
 "sponsorHead": "Кто был спонсором Вашей поездки?",
 "sponsor": "Университет обучения",
 "images": [
-
+"/feedbackImages/Angelina/image1.jpg",
+  "/feedbackImages/Angelina/image2.jpg",
+  "/feedbackImages/Angelina/image3.jpg",
+  "/feedbackImages/Angelina/image4.jpg",
+  "/feedbackImages/Angelina/image5.jpg",
+  "/feedbackImages/Angelina/image6.jpg"
 ]
 }
 

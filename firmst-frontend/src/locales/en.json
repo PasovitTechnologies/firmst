@@ -206,7 +206,7 @@
 },
 
 {
-  "userImage":"/feedbackImages/images.png",
+  "userImage":"/feedbackImages/Angelina.jpg",
 
 "name": "Zhilenkova Angelina Vladimirovna",
 "designation": "",
@@ -233,7 +233,12 @@
 "sponsorHead": "Who sponsored your trip?",
 "sponsor": "Home University",
 "images": [
-
+  "/feedbackImages/Angelina/image1.jpg",
+  "/feedbackImages/Angelina/image2.jpg",
+  "/feedbackImages/Angelina/image3.jpg",
+  "/feedbackImages/Angelina/image4.jpg",
+  "/feedbackImages/Angelina/image5.jpg",
+  "/feedbackImages/Angelina/image6.jpg"
 ]
 }
     ]

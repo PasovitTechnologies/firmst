@@ -192,7 +192,6 @@ const ContactForm = ({ contactFormRef }) => {
 
 
           <div className="mx-auto mt-5">
-            <p className="text-xs text-gray-500 mt-4 tracking-wide leading-tight">{t("requestForm.content")}</p>
 
             <div className="flex items-center gap-2 mt-3">
               <input
