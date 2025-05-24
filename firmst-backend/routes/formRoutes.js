@@ -2,6 +2,8 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const router = express.Router();
+const { TelegramApi } = require("./TelegramApi");
+
 
 const JWT_SECRET = "your_jwt_secret_key";
 
@@ -17,17 +19,32 @@ const verifyToken = (req, res, next) => {
   });
 };
 
-// POST: Submit form
 router.post("/submit-form", async (req, res) => {
-  const { firstName, middleName = "", lastName, phone, specialization, email, acceptTerms } = req.body;
+  const {
+    firstName,
+    middleName = "",
+    lastName,
+    phone,
+    specialization,
+    email,
+    acceptTerms,
+  } = req.body;
 
-  if (!firstName || !lastName || !phone || !specialization || !email || acceptTerms === undefined) {
+  if (
+    !firstName ||
+    !lastName ||
+    !phone ||
+    !specialization ||
+    !email ||
+    acceptTerms === undefined
+  ) {
     return res.status(400).json({ message: "Required fields are missing." });
   }
 
   const fullName = [firstName, middleName, lastName].filter(Boolean).join(" ");
 
   try {
+    // Save to DB
     const newUser = new User({
       firstName,
       middleName,
@@ -39,12 +56,36 @@ router.post("/submit-form", async (req, res) => {
       acceptTerms,
     });
     await newUser.save();
+
+    
+    // Prepare Telegram message
+    const telegram = new TelegramApi();
+    telegram.chat_id = "-4808391349"; // Your group chat ID
+    telegram.text = `
+📝 <b>НОВАЯ ФОРМА ЗАПОЛНЕНА</b>
+━━━━━━━━━━━━
+👤 <b>ФИО:</b> ${fullName}
+📞 <b>Телефон:</b> ${phone}
+📧 <b>Email:</b> ${email}
+🎓 <b>Специализация:</b> ${specialization}
+✅ <b>Согласие с условиями:</b> ${acceptTerms ? "Да" : "Нет"}
+⏱️ <b>Дата и время:</b> ${new Date().toLocaleString("ru-RU", { timeZone: "Europe/Moscow" })}
+━━━━━━━━━━━━
+    `;
+
+
+    await telegram.sendMessage();
+
+
     res.status(200).json({ message: "Form submitted successfully." });
   } catch (error) {
-    console.error("Error saving user:", error);
-    res.status(500).json({ message: "Error saving user data." });
+    console.error("Error during form submission:", error.message);
+    res.status(500).json({ message: "Error processing form data." });
   }
 });
+
+
+
 
 // GET: User by email
 router.get("/user-detail/:email", verifyToken, async (req, res) => {
